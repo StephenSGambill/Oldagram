@@ -1,5 +1,89 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
+.OG-logo {
+    width: 127px;
+}
+
+.user-avatar {
+    height: 40px;
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 375;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+
+header {
+    display: inline-flex;
+    justify-content: center;
+    gap: 183px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    height: 70px;
+}
+
+.account-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.account-avatar {
+    height: 40px;
+    border-radius: 50px;
+}
+
+.account-name {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.account-location {
+    margin-top: 0;
+}
+
+.bottom-section {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.bottom-section img {
+    width: 30px;
+}
+
+.likes-text {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.comment-text {
+    margin: 8px 0 20px 0;
+    font-size: 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.icons img {
+    margin-right: 8px;
+}
+
+.icons img:hover {
+    opacity: 50%;
+}

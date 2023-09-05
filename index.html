@@ -1,9 +1,41 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo.png" class="OG-logo">
+            <img src="images/user-avatar.png" class="user-avatar">
+        </header>
+
+        <section class="account-section">
+            <img src="images/avatar-vangogh.jpg" class="account-avatar">
+            <div>
+                <p class="account-name bold-text">Vincent van Gogh</p>
+                <p class="account-location">Zundert, Netherlands</h2>
+            </div>
+        </section>
+        <img src="images/post-vangogh.jpg">
+
+        <section class="bottom-section">
+            <div class="icons">
+                <img src="images/icon-heart.png">
+                <img src="images/icon-comment.png">
+                <img src="images/icon-dm.png">
+            </div>
+            <p class="likes-text bold-text">21 likes</p>
+            <p class="comment-text"><span class="bold-text">vinecy1854</span> just took a few mushrooms lol </p>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
